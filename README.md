@@ -1,2 +1,5 @@
 # Twitter-Hate-Speech
-Examine text data from tweets and leverage different types of learning models to classify tweets as offensive, hateful, or neither.
+- Objective: Examine text data from tweets and leverage different types of learning models to classify tweets as offensive, hateful, or neither.
+- Dataset: CSV file containing about 25,000 tweets and their content classifications.
+- Approach: Load in raw dataset, feature exploration, data cleaning/preprocessing, feature extraction, feature rankings, Logistic Regression model performance, and K-Means Clustering performance.
+- Key Findings: The Logistic Regression model achieved an overall accuracy score of about 89%, while the K-Means clustering did not appear to have too much trouble classifying the tweets either. When tasked with identifying the tweets as either hurtful/offensive or not, the clusters formed by the model appear very distinct with minimal overlap, suggesting how confident the model is during its decision making. However, it was harder for the K-Means model to decipher between hurtful, offensive, or neither. As expected, the divide between hurtful and offensive was foggier than the divide between hurtful/offensive and neither. 
